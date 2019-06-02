@@ -21,5 +21,6 @@ Download and apply patches:
 ```
 git clone https://github.com/aaronk6/typo3-7.6-patches.git
 cd typo3_src-7.6.32
-patch -p0 < ../typo3-7.6-patches/*.patch
+patch -p0 < ../typo3-7.6-patches/typo3-mariadb10_2.patch
+patch -p0 < ../typo3-7.6-patches/typo3-rtehtmlarea_chrome_fix.patch
 ```
