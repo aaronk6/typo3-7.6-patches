@@ -5,7 +5,7 @@ This repository contains patches for TYPO3 7.6.32, which is the latest version f
 ## Included Patches
 
 1. **Support for MariaDB 10.2** – Apply workaround mentioned in https://forge.typo3.org/issues/83414#note-7 to support MariaDB 10.2.
-2. **Fix `<!DOCTYPE html Error` in Editor** – Apply fix from https://github.com/FriendsOfTYPO3/rtehtmlarea/commit/02cc2beeb6069d8726f8120ffd82eb890c2c469e to make rtehtmlarea work in newer Chrome versions. Related GitHub issue: https://github.com/FriendsOfTYPO3/rtehtmlarea/issues/26.
+2. **Fix RTE not working in Chrome 91** – Apply fix suggested in https://github.com/FriendsOfTYPO3/rtehtmlarea/issues/46#issuecomment-860512586 to make rtehtmlarea work in newer Chrome versions.
 
 ## Instructions
 
